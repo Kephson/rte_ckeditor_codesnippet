@@ -18,10 +18,11 @@ $EM_CONF[$_EXTKEY] = [
             'depends' => [
                 'typo3' => '9.5.0-11.5.99',
                 'rte_ckeditor' => '9.5.0-11.5.99',
-                'fs_code_snippet' => '3.1.0-3.99.99',
             ],
             'conflicts' => [],
-            'suggests' => [],
+            'suggests' => [
+                'fs_code_snippet' => '3.1.0-3.99.99',
+            ],
         ],
     'state' => 'stable',
     'uploadfolder' => false,

@@ -20,7 +20,10 @@
 		"GPL-2.0-or-later"
 	],
 	"require": {
-		"typo3/cms-rte-ckeditor": "^9.5 || ^10.4 || ^11.5",
+		"php": ">=7.2.0",
+		"typo3/cms-rte-ckeditor": "^9.5 || ^10.4 || ^11.5"
+	},
+	"suggest": {
 		"danielgoerz/fs-code-snippet": "^3.2"
 	},
 	"replace": {
