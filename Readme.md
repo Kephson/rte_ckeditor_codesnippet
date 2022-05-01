@@ -16,6 +16,8 @@ It suggests the extension [fs_code_snippet](https://extensions.typo3.org/extensi
 
 Short overview:
 
+![First impression - what does it do?](/Documentation/Images/Introduction/introduction.gif)
+
 
 ## Installation
 
