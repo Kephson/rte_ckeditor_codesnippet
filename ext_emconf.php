@@ -12,7 +12,7 @@ $EM_CONF[$_EXTKEY] = [
     'title' => 'Codesnippet plugin for CKEditor',
     'description' => 'Integrates the CKEditor codesnippet plugin',
     'category' => 'backend',
-    'version' => '1.0.0',
+    'version' => '1.0.1',
     'constraints' =>
         [
             'depends' => [
