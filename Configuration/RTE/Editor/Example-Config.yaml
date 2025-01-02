@@ -13,18 +13,19 @@ editor:
         - code
         - codeBlock
 
+    # see https://prismjs.com/#supported-languages
     codeBlock:
       languages:
         - { language: 'plaintext', label: 'Plain text' }
-        - { language: 'php', label: 'PHP' }
-        - { language: 'sql', label: 'SQL' }
-        - { language: 'yaml', label: 'YAML' }
-        - { language: 'json', label: 'JSON' }
-        - { language: 'css', label: 'CSS' }
-        - { language: 'scss', label: 'SCSS' }
-        - { language: 'javascript', label: 'JavaScript' }
-        - { language: 'typescript', label: 'TypeScript' }
-        - { language: 'shell', label: 'Shell' }
-        - { language: 'xml', label: 'XML' }
-        - { language: 'nginx', label: 'Nginx' }
-        - { language: 'bash', label: 'Bash' }
+        - { language: 'php', label: 'PHP', class: 'language-php' }
+        - { language: 'sql', label: 'SQL', class: 'language-sql' }
+        - { language: 'yaml', label: 'YAML', class: 'language-yaml' }
+        - { language: 'json', label: 'JSON', class: 'language-json' }
+        - { language: 'css', label: 'CSS', class: 'language-css' }
+        - { language: 'scss', label: 'SCSS', class: 'language-scss' }
+        - { language: 'javascript', label: 'JavaScript', class: 'language-js' }
+        - { language: 'typescript', label: 'TypeScript', class: 'language-js' }
+        - { language: 'shell', label: 'Shell', class: 'language-shell' }
+        - { language: 'xml', label: 'XML', class: 'language-xml' }
+        - { language: 'nginx', label: 'Nginx', class: 'language-nginx' }
+        - { language: 'bash', label: 'Bash', class: 'language-bash' }
