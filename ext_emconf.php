@@ -23,7 +23,7 @@ $EM_CONF[$_EXTKEY] = [
                 'fs_code_snippet' => '3.1.0-3.99.99',
             ],
         ],
-    'state' => 'stable',
+    'state' => 'obsolete',
     'uploadfolder' => false,
     'createDirs' => false,
     'clearCacheOnLoad' => false,

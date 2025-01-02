@@ -1,0 +1,30 @@
+# see https://werkraum.net/devblog/wie-fuege-ich-ckeditor5-plugins-in-typo3-12-ein
+editor:
+  config:
+    importModules:
+      - { 'module': '@ckeditor/ckeditor5-code-block', 'exports': [ 'CodeBlock' ] }
+
+    extraPlugins:
+      - Code
+      - CodeBlock
+
+    toolbar:
+      items:
+        - code
+        - codeBlock
+
+    codeBlock:
+      languages:
+        - { language: 'plaintext', label: 'Plain text' }
+        - { language: 'php', label: 'PHP' }
+        - { language: 'sql', label: 'SQL' }
+        - { language: 'yaml', label: 'YAML' }
+        - { language: 'json', label: 'JSON' }
+        - { language: 'css', label: 'CSS' }
+        - { language: 'scss', label: 'SCSS' }
+        - { language: 'javascript', label: 'JavaScript' }
+        - { language: 'typescript', label: 'TypeScript' }
+        - { language: 'shell', label: 'Shell' }
+        - { language: 'xml', label: 'XML' }
+        - { language: 'nginx', label: 'Nginx' }
+        - { language: 'bash', label: 'Bash' }
