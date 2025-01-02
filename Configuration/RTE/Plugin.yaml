@@ -1,4 +1,0 @@
-editor:
-  externalPlugins:
-    codesnippet:
-      resource: "EXT:rte_ckeditor_codesnippet/Resources/Public/JavaScript/Plugins/codesnippet/plugin.js"

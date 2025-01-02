@@ -29,7 +29,7 @@ RTE CKEditor codesnippet plugin
 		codesnippet,CKEditor,backend,frontend,prismjs,code,editor
 
 	:Copyright:
-		2022
+		2025
 
 	:Author:
 		Ephraim Härer

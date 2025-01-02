@@ -1,38 +1,38 @@
 {
-	"name": "ehaerer/rte-ckeditor-codesnippet",
-	"type": "typo3-cms-extension",
-	"description": "Integrates the CKEditor codesnippet plugin",
-	"homepage": "https://www.ephra.im",
-	"authors": [
-		{
-			"name": "Ephraim Härer",
-			"role": "Developer"
-		}
-	],
-	"keywords": [
-		"TYPO3 CMS",
-		"Site package",
-		"CKEditor",
-		"Codesnippet",
-		"Plugin"
-	],
-	"license": [
-		"GPL-2.0-or-later"
-	],
-	"require": {
-		"php": ">=7.2.0",
-		"typo3/cms-core": "^9.5 || ^10.4 || ^11.5",
-		"typo3/cms-rte-ckeditor": "^9.5 || ^10.4 || ^11.5"
-	},
-	"suggest": {
-		"danielgoerz/fs-code-snippet": "^3.2"
-	},
-	"replace": {
-		"typo3-ter/rte-ckeditor-codesnippet": "self.version"
-	},
-	"extra": {
-		"typo3/cms": {
-			"extension-key": "rte_ckeditor_codesnippet"
-		}
-	}
+  "name": "ehaerer/rte-ckeditor-codesnippet",
+  "type": "typo3-cms-extension",
+  "description": "Integrates the CKEditor codesnippet plugin",
+  "homepage": "https://www.ephra.im",
+  "authors": [
+    {
+      "name": "Ephraim Härer",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "TYPO3 CMS",
+    "Site package",
+    "CKEditor",
+    "Codesnippet",
+    "Plugin"
+  ],
+  "license": [
+    "GPL-2.0-or-later"
+  ],
+  "require": {
+    "php": ">=8.2.0",
+    "typo3/cms-core": "^12.4",
+    "typo3/cms-rte-ckeditor": "^12.4"
+  },
+  "suggest": {
+    "danielgoerz/fs-code-snippet": "^3.2"
+  },
+  "replace": {
+    "typo3-ter/rte-ckeditor-codesnippet": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "rte_ckeditor_codesnippet"
+    }
+  }
 }

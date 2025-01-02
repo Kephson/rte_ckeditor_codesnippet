@@ -6,16 +6,14 @@
 [![License](http://poser.pugx.org/ehaerer/rte-ckeditor-codesnippet/license)](https://packagist.org/packages/ehaerer/rte-ckeditor-codesnippet)
 [![PHP Version Require](http://poser.pugx.org/ehaerer/rte-ckeditor-codesnippet/require/php)](https://packagist.org/packages/ehaerer/rte-ckeditor-codesnippet)
 
+Current main branch only supports TYPO3 v12 with CKEditor 5.
 
-| :warning: WARNING                                                                                    |
-|:-----------------------------------------------------------------------------------------------------|
-| There is no further development of this project because since TYPO3 v12 there is CKEditor v5 in use! |
-
+[Older branches](https://github.com/Kephson/rte_ckeditor_codesnippet/tree/TYPO3_11) and [releases](https://github.com/Kephson/rte_ckeditor_codesnippet/releases/tag/1.0.1) support also TYPO3 v11 and before. 
 
 This extension ships a simple plugin for the CkEditor to allow editors to insert coding tags inside text elements.
-The plugin itself has been taken from the [CKEditor Inserting Code Snippet documentation](https://ckeditor.com/docs/ckeditor4/latest/features/codesnippet.html) without any changes.
+The plugin itself has been taken from the [CKEditor Inserting Code Snippet documentation](https://ckeditor.com/docs/ckeditor5/latest/features/code-blocks.html#demo) without any changes.
 
-At the moment it integrates the [plugin version 4.18.0](https://ckeditor.com/cke4/addon/codesnippet).
+At the moment it integrates the [codeblocks for CKEditor 5](https://ckeditor.com/docs/ckeditor5/latest/features/code-blocks.html#demo).
 
 It suggests the extension [fs_code_snippet](https://extensions.typo3.org/extension/fs_code_snippet) to render the codesnippets in the frontend of your website.
 
@@ -28,36 +26,8 @@ Short overview:
 
 Use `composer require ehaerer/rte-ckeditor-codesnippet` or download the extension from TER.
 
-The extension requires the extension [fs_code_snippet](https://extensions.typo3.org/extension/fs_code_snippet) from TER or via Composer it will be required and installed automatically. fs_code_snippet is used to render the output in the frontend.
+The extension suggests the extension [fs_code_snippet](https://extensions.typo3.org/extension/fs_code_snippet) from TER or via Composer it will be required and installed automatically. fs_code_snippet is used to render the output in the frontend.
 
 ## Usage
 
-All it takes to enable the plugin are the following changes in your e.g. `RTE.yaml` with including the needed TsConfig and optional including the TypoScript configuration of [fs_code_snippet](https://extensions.typo3.org/extension/fs_code_snippet):
-
-1. Import the configuration from the extension in your RTE configuration:
-
-```yaml
-imports:
-    - { resource: "EXT:rte_ckeditor_codesnippet/Configuration/RTE/Plugin.yaml" }
-```
-
-2. Enable the plugin in your RTE configuration:
-
-```yaml
-editor:
-  config:
-    extraPlugins:
-      - codesnippet
-```
-
-3. Optional: include TypoScript constants and setup from fs_code_snippet in the configuration of your site package to render the code block in your website (frontend):
-
-```typoscript
-# constants
-@import 'EXT:fs_code_snippet/Configuration/TypoScript/constants.txt'
-
-# setup
-@import 'EXT:fs_code_snippet/Configuration/TypoScript/setup.txt'
-```
-
-4. Check the results in the backend editor and in the frontend of your website.
+All it needs is to install the extension.
