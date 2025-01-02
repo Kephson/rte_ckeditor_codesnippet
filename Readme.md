@@ -6,9 +6,11 @@
 [![License](http://poser.pugx.org/ehaerer/rte-ckeditor-codesnippet/license)](https://packagist.org/packages/ehaerer/rte-ckeditor-codesnippet)
 [![PHP Version Require](http://poser.pugx.org/ehaerer/rte-ckeditor-codesnippet/require/php)](https://packagist.org/packages/ehaerer/rte-ckeditor-codesnippet)
 
-| :warning: WARNING                                                                                  |
-|:---------------------------------------------------------------------------------------------------|
-| There is no further development of this project because since TYPO3 v12 there is CKEditor v5 used. |
+
+| :warning: WARNING                                                                                    |
+|:-----------------------------------------------------------------------------------------------------|
+| There is no further development of this project because since TYPO3 v12 there is CKEditor v5 in use! |
+
 
 This extension ships a simple plugin for the CkEditor to allow editors to insert coding tags inside text elements.
 The plugin itself has been taken from the [CKEditor Inserting Code Snippet documentation](https://ckeditor.com/docs/ckeditor4/latest/features/codesnippet.html) without any changes.
